@@ -80,7 +80,7 @@ export const config = {
             title: "Excel.Draw",
             category: "Real-Time Collaboration",
             technologies: "TypeScript, MERN Stack, WebSockets, Redux",
-            image: "/images/placeholder.webp",
+            image: "/images/exceldraw.png",
             description: "A Figma-like collaborative canvas using WebSocket pub/sub for real-time, conflict-free sync. Manages shared state with Redux across 20+ concurrent users drawing on the same board simultaneously."
         },
         {
@@ -99,7 +99,7 @@ export const config = {
             image: "/images/redline.png",
             description: "A design-critique facilitation tool built for the Mind the Product × Novus.ai Hackathon. Uses the Claude API to structure and accelerate design feedback. Live at red-line-one.vercel.app."
         }
-        
+
     ],
     contact: {
         email: "sanyamjainhbtu@gmail.com",
