@@ -140,6 +140,7 @@ export function setAllTimeline() {
       end: "bottom 30%",
       scrub: 1.5,
       invalidateOnRefresh: true,
+      id: "career-timeline",
     },
   });
   careerTimeline

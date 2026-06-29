@@ -48,13 +48,14 @@ body {
     overflow: auto !important;
     height: auto !important;
     min-height: 100vh !important;
-    touch-action: manipulation;
+    touch-action: auto !important;
+    overflow-x: hidden !important;
   }
 
   html {
     overflow-x: hidden !important;
     overflow-y: auto !important;
-    touch-action: manipulation;
+    touch-action: auto !important;
   }
 
   /* Ensure no fixed elements block scrolling */

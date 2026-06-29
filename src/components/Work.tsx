@@ -10,8 +10,8 @@ gsap.registerPlugin(ScrollTrigger);
 
 const Work = () => {
   useEffect(() => {
-    // Disable pinning on mobile to allow scrolling
-    if (window.innerWidth <= 768) return;
+    // Disable pinning on mobile and tablets to allow natural vertical scrolling
+    if (window.innerWidth <= 1024) return;
 
     let translateX: number = 0;
 
